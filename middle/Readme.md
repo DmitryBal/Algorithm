@@ -6,6 +6,7 @@
 - [HasSingleCycle](#HasSindleCycle.py)
 - [Powerset](#Powerset.py)
 - [SearchInSortedMatrix](#SearchInSortedMatrix.py)
+- [BalancedBrackets](#BalancedBrackets.py)
 ## TreeNumberSum 
 ### Найти все группы из трех чисел в массиве, сумма которых равна заданной сумме 
 #### def threeNumberSum(array, targetSum)
@@ -46,3 +47,8 @@
 #### deft searchInSortedMatrix(matrix, target)
 - Принимает на вход: матрицу и число
 - Возвращает: массив с индексами числа в матрице
+## BalancedBrackets
+### Проверка на корректность закрытия скобок
+#### def balancedBrackets(string)
+- Принимает на вход: строку
+- Возвращает: True/False
