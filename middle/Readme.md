@@ -7,6 +7,7 @@
 - [Powerset](#Powerset.py)
 - [SearchInSortedMatrix](#SearchInSortedMatrix.py)
 - [BalancedBrackets](#BalancedBrackets.py)
+- [LongestPalindromicSubstring](#LongestPalindromicSubstring.py)
 ## TreeNumberSum 
 ### Найти все группы из трех чисел в массиве, сумма которых равна заданной сумме 
 #### def threeNumberSum(array, targetSum)
@@ -52,3 +53,11 @@
 #### def balancedBrackets(string)
 - Принимает на вход: строку
 - Возвращает: True/False
+## LongestPalindromicSubstring
+### Поиск максимального полиндрома в строке
+#### def longestPalindromicSubstring(string)
+- Принимает на вход: строку
+- Возвращает: максимальный полиндрома
+#### def getLongestPolindrome(string, left_index, right_index)
+- Принимает на вход: строку и два индекса
+- Возвращает: массив индексов для найденого полиндрома 
