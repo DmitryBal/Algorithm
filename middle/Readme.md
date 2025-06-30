@@ -4,7 +4,7 @@
 - [SmallestDifference](#SmallestDifference.py)
 - [KadanesAlgorithm](#KadanesAlgorithm.py)
 - [HasSingleCycle](#HasSindleCycle.py)
-
+- [Powerset](#Powerset.py)
 ## TreeNumberSum 
 ### Найти все группы из трех чисел в массиве, сумма которых равна заданной сумме 
 #### def threeNumberSum(array, targetSum)
@@ -31,3 +31,6 @@
 #### def getNextInd(current_index, array)
 - Принимает на вход: текущий индекс, массив
 - Возвращает: индекс следующего элемента по возможному кольцу
+
+## Powerset
+## Из заданных чисел составить все возможные множества
