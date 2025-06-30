@@ -1,10 +1,10 @@
 # Middle level algorithm
 ## Содержание
-- [TreeNumSum](#TreeNumSum.py)
+- [TreeNumberSum](#TreeNumberSum.py)
 - [SmallestDifference](#SmallestDifference.py)
 - [KadanesAlgorithm](#KadanesAlgorithm.py)
 
-## TreeNumSum 
+## TreeNumberSum 
 ### Найти все группы из трех чисел в массиве, сумма которых равна заданной сумме 
 #### def threeNumberSum(array, targetSum)
 - Принимает на вход: массив и число
