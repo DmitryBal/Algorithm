@@ -8,6 +8,7 @@
 - [SearchInSortedMatrix](#SearchInSortedMatrix.py)
 - [BalancedBrackets](#BalancedBrackets.py)
 - [LongestPalindromicSubstring](#LongestPalindromicSubstring.py)
+- [GroupAnagrams](#GroupAnagrams.py)
 ## TreeNumberSum 
 ### Найти все группы из трех чисел в массиве, сумма которых равна заданной сумме 
 #### def threeNumberSum(array, targetSum)
@@ -61,3 +62,8 @@
 #### def getLongestPolindrome(string, left_index, right_index)
 - Принимает на вход: строку и два индекса
 - Возвращает: массив индексов для найденого полиндрома 
+## GroupAnagrams
+### Сгрупировать все анаграмы 
+#### def groupAnagrams(words)
+- Принимает на вход: массив строк
+- Вовзращает: сгрупированные массивы с анаграммами
