@@ -3,6 +3,7 @@
 - [TreeNumberSum](#TreeNumberSum.py)
 - [SmallestDifference](#SmallestDifference.py)
 - [KadanesAlgorithm](#KadanesAlgorithm.py)
+- [HasSingleCycle](#HasSindleCycle.py)
 
 ## TreeNumberSum 
 ### Найти все группы из трех чисел в массиве, сумма которых равна заданной сумме 
@@ -21,3 +22,12 @@
 #### def kadanesAlgorithm(array)
 - Принимает на вход: массив
 - Возвращает: максимальную сумму подмассива 
+
+## HasSingleCycle
+### Образуют ли элементы массива кольцо. (нужно сдвигаться на элемент равный значению массива)
+#### def hasSingleCycle(array)
+- Принимает на вход: массив
+- Возвращает: True/False
+#### def getNextInd(current_index, array)
+- Принимает на вход: текущий индекс, массив
+- Возвращает: индекс следующего элемента по возможному кольцу
