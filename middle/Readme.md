@@ -5,6 +5,7 @@
 - [KadanesAlgorithm](#KadanesAlgorithm.py)
 - [HasSingleCycle](#HasSindleCycle.py)
 - [Powerset](#Powerset.py)
+- [SearchInSortedMatrix](#SearchInSortedMatrix.py)
 ## TreeNumberSum 
 ### Найти все группы из трех чисел в массиве, сумма которых равна заданной сумме 
 #### def threeNumberSum(array, targetSum)
@@ -40,3 +41,8 @@
 #### def powerset_recursion(array) - рекурсивное решение
 - Принимает на вход: массив
 - Возвращает: Массив из всех возможных множеств
+## SearchInSortedMatrix
+### Поиск в отсортированной матрице
+#### deft searchInSortedMatrix(matrix, target)
+- Принимает на вход: матрицу и число
+- Возвращает: массив с индексами числа в матрице
