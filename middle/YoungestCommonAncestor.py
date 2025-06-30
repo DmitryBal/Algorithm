@@ -4,14 +4,14 @@ class AncestralTree:
         self.ancestor = None
 
 
-# O(d) time | O(1) space 
+# O(d) time | O(1) space
 def getYoungestCommonAncestor(topAncestor, descendantOne, descendantTwo):
     depthOne = getDescendantDepth(descendantOne, topAncestor)
     depthTwo = getDescendantDepth(descendantTwo, topAncestor)
     if depthOne > depthTwo:
-        return backtrackAncestralTree(descendantOne, descendantTwo, depthOne - dep
-        else:
-        return backtrackAncestralTree(descendantTwo, descendantOne, depthTwo - dep
+        return backtrackAncestralTree(descendantOne, descendantTwo, depthOne - depthOne)
+    else:
+        return backtrackAncestralTree(descendantTwo, descendantOne, depthTwo - depthOne)
 
 
 def getDescendantDepth(descendant, topAncestor):
