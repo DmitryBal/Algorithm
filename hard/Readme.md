@@ -2,6 +2,7 @@
 ## Содержание
 - [FourNumberSum](#FourNumberSum.py)
 - [SubarraySort](#SubarraySort.py)
+- [LargestRange](#LargestRange.py)
 
 ## FourNumberSum
 ### Найти все группы из четырех чисел в массиве, сумма которых равна заданной сумме
@@ -17,3 +18,6 @@
 #### def subarraySort(array)
 - Принимает на вход: массив
 - Возвращает: массив из двух индексов (границы неотсортированной части массива)
+
+## LargestRange
+### Максимальное количество чисел идущих подряд
