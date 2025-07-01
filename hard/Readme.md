@@ -12,7 +12,7 @@
 
 ## SubarraySort
 ### Определить границы неотсортированной части массива
-#### isOutOfOrder(i, num, array)
+#### def isOutOfOrder(i, num, array)
 - Принимает на вход: индекс, число и массив
 - Возвращает True/False (является определенный элемент массива не отсоритрованным)
 #### def subarraySort(array)
